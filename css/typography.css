@@ -1,0 +1,18 @@
+body {
+    font-family: 'Montserrat', serif;
+}
+
+h1 {
+    white-space: nowrap;
+}
+
+h2 {
+    color: var(--vds-color-magenta);
+}
+
+:root {
+    --bremcake-bg-color: #F1E1C9;
+    --milkglass-bg-color: #FAF8F0;
+    --frostyday-bg-color: #CFECF5;
+    --azuresky-bg-color: #A9E2F5;
+}
