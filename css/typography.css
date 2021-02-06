@@ -1,13 +1,23 @@
 body {
-    font-family: 'Montserrat', serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    /*font-family: 'Roboto Slab', serif;*/
+    /*font-family: 'Saira Condensed', sans-serif;*/
 }
 
 h1 {
+    color: var(--vds-color-green);
     white-space: nowrap;
 }
 
 h2 {
-    color: var(--vds-color-magenta);
+    color: var(--vds-color-green);
+}
+
+h3 {
+    color: var(--vds-color-green);
 }
 
 :root {
@@ -15,4 +25,28 @@ h2 {
     --milkglass-bg-color: #FAF8F0;
     --frostyday-bg-color: #CFECF5;
     --azuresky-bg-color: #A9E2F5;
+}
+
+/* unvisited link */
+a:link {
+    color: var(--vds-color-green-dark);
+}
+
+/* visited link */
+a:visited {
+    color: var(--vds-color-green-light);
+}
+
+/* mouse over link */
+a:hover {
+    color: var(--vds-color-green-darker);
+}
+
+/* selected link */
+a:active {
+    color: var(--vds-color-blue-dark);
+}
+
+figure {
+    font-size: xx-small;
 }

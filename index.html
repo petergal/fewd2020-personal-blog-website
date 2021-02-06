@@ -2,104 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>a blog</title>
+    <title>pg's blog</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="a blog about">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat"
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&family=Roboto&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@100&family=Saira+Condensed:wght@100&display=swap"
           rel="stylesheet">
 </head>
 <body>
 <div class="container">
-
+    <nav class="navigation-mobile">
+        <a href="index.html"><img class="menu-icon" src="ressources/bars-solid.svg"></a>
+    </nav>
     <nav class="navigation">
-        <a href="index.html"><img class="icon" src="ressources/bars-solid.svg"></a>
-        <!--<ul class="menu">
+        <ul class="menu">
             <li>Home</li>
             <li>Blog</li>
-            <li>About</li>
+            <li>About me</li>
             <li>Projects</li>
-        </ul>-->
+        </ul>
     </nav>
     <header class="header">
-        <h1>My Blog</h1>
-        <a href="index.html">subscribe</a>
-        <img class="icon" src="ressources/search-solid.svg">
+        <h1>pg's blog</h1>
+        <!--        <a href="index.html">subscribe</a>-->
+        <!--        <img class="menu-icon" src="ressources/search-solid.svg">-->
     </header>
-    <main class="content">
-        <article>
-            <h2>Example Post</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris.
-                Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et
-                diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia
-                consectetur.</p>
+
+    <section class="content">
+
+        <article class="card" id="one">
+            <figure class="card-photo">
+                <div id="img-one" role="img" alt="Climate Protest in Zurich 2019"></div>
+                <figcaption>Photo by <a href="https://unsplash.com/@seger">Tom Seger</a> on <a
+                        href="https://unsplash.com/">Unsplash</a></figcaption>
+            </figure>
+            <div class="card-description">
+                <h2>Climate Protest in Zurich (2019)</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis.</p>
+                <a href="blog-post.html" class="btn-card">Read More</a>
+            </div>
         </article>
-        <article>
-            <h2>Example Post</h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+        <article class="card" id="two">
+            <figure class="card-photo">
+                <div id="img-two" role="img" alt="Zurich Color Boosted"></div>
+                <figcaption>Photo by <a
+                        href="https://unsplash.com/@ripato?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ricardo
+                    Gomez Angel</a> on <a href="https://unsplash.com/">Unsplash</a>
+                </figcaption>
+            </figure>
+            <div class="card-description">
+                <h2>Zurich Color Boosted</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis.</p>
+                <a href="blog-post.html" class="btn-card">Read More</a>
+            </div>
         </article>
-        <article>
-            <h2>Example Post</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris.
-                Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et
-                diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia
-                consectetur.</p>
-            <section>
-                <h3>Subsection</h3>
-                <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
-                    dolor.</p>
-                <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra
-                    tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio
-                    eros.</p>
-            </section>
-            <section>
-                <h3>Another subsection</h3>
-                <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis
-                    dis
-                    parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem
-                    facilisis semper ac in est.</p>
-                <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio.
-                    Maecenas
-                    convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam
-                    iaculis
-                    velit, is fringille sem nunc vet mi.</p>
-            </section>
+
+        <article class="card" id="three">
+            <figure class="card-photo">
+                <div id="img-three" role="img" alt="Winterthur Goldenberg"></div>
+                <figcaption>Photo by <a href="https://unsplash.com/@catchthevibe">Malcolm Mittendrin</a> on <a
+                        href="https://unsplash.com/">Unsplash</a></figcaption>
+            </figure>
+            <div class="card-description">
+                <h2>Winterthur (My&nbsp;Hometown)</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis.</p>
+                <a href="blog-post.html" class="btn-card">Read More</a>
+            </div>
         </article>
-        <article>
-            <h2>Example Post</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris.
-                Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et
-                diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia
-                consectetur.</p>
-            <section>
-                <h3>Subsection</h3>
-                <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
-                    dolor.</p>
-                <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra
-                    tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio
-                    eros.</p>
-            </section>
-            <section>
-                <h3>Another subsection</h3>
-                <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis
-                    dis
-                    parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem
-                    facilisis semper ac in est.</p>
-                <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio.
-                    Maecenas
-                    convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam
-                    iaculis
-                    velit, is fringille sem nunc vet mi.</p>
-            </section>
+
+        <article class="card" id="four">
+            <figure class="card-photo">
+                <div id="img-four" role="img" alt="Village of Avenches"></div>
+                <figcaption>Photo by <a
+                        href="https://unsplash.com/@lighttouchedphotography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kevin
+                    Schmid</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
+                </figcaption>
+            </figure>
+            <div class="card-description">
+                <h2>Random Post - Avenches</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Id neque aliquam vestibulum morbi blandit cursus risus at. Malesuada
+                    pellentesque elit eget gravida. Eu consequat ac felis donec. Amet dictum sit amet justo donec enim
+                    diam. Pharetra massa massa ultricies mi. Viverra tellus in hac habitasse platea dictumst vestibulum.
+                    Ultricies leo integer malesuada nunc vel risus commodo. Duis ut diam quam nulla. Elementum facilisis
+                    leo vel fringilla est ullamcorper. Ut tortor pretium viverra suspendisse potenti. Nec nam aliquam
+                    sem et tortor consequat id.
+
+                    Ipsum dolor sit amet consectetur adipiscing elit. At tellus at urna condimentum mattis. Id leo in
+                    vitae turpis massa sed elementum tempus. Augue mauris augue neque gravida in. </p>
+                <a href="blog-post.html" class="btn-card">Read More</a>
+            </div>
         </article>
-    </main>
+
+    </section>
+
     <aside class="sidebar">
-        <div class="box"><h2>About</h2></div>
-        <div class="box"><h2>Archives</h2></div>
-        <div class="box"><h2>Elsewhere</h2></div>
+        <div class="box"><h2>Search</h2>
+            <form class="search-form">
+                <input type="search" name="q" placeholder="Type here..."
+                       aria-label="Search through site content">
+            </form>
+        </div>
+        <div class="box">
+            <div class="about">
+                <img class="rounded-image" src="ressources/peter_gal.jpg" alt="Peter">
+                <p class="center">Hi, I'm Peter.<br>
+                    I write about bla bla bla and lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="box"><h2>Elsewhere</h2>
+            <ul>
+                <a href="https://github.com/petergal" target="_blank" rel="”noreferrer”" alt="Github"><img
+                        class="social-media-icon" alt="Github" src="ressources/github-square-brands.svg"></a>
+                <a href="https://www.linkedin.com/in/peter-gal-54b378aa/" target="_blank" rel="”noreferrer”"
+                   alt="Linkedin"><img class="social-media-icon" alt="Linkedin"
+                                       src="ressources/linkedin-brands.svg"></a>
+                <a href="https://twitter.com/peter_gal" target="_blank" rel="”noreferrer”" alt="Twitter"><img
+                        class="social-media-icon" alt="Twitter" src="ressources/twitter-square-brands.svg"></a>
+            </ul>
+        </div>
     </aside>
     <footer class="footer">
-        Copyright © 2020
+        © Peter Gal 2021
     </footer>
 </div>
 </body>
