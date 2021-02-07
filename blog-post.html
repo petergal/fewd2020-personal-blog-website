@@ -1,21 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>a blog</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="a blog about">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/blog-post.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat"
-              rel="stylesheet">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <title>a blog</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="a blog about">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/61efda0f2e.js" crossorigin="anonymous"></script>
+    <link href="css/blog-post.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&family=Roboto&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@100&family=Saira+Condensed:wght@100&display=swap"
+          rel="stylesheet">
+</head>
+<body>
 
+<div class="container">
+    <nav class="navigation-mobile">
+        <a href="index.html"><img class="menu-icon" src="ressources/bars-solid.svg" alt="menu"></a>
+    </nav>
+    <nav class="navigation">
+        <ul class="menu">
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About me</li>
+            <li>Projects</li>
+        </ul>
+    </nav>
+    <header class="header">
+        <a href="index.html" class="back"><i class="fa fa-arrow-left"></i> go back</a>
+        <h1>pg's blog</h1>
+    </header>
+    <article class="post">
+        <figure>
+            <img src="ressources/tom-seger-M4_pEfJoPqc-unsplash.jpg" alt="Climate Protest in Zurich 2019">
+            <figcaption>Photo by <a href="https://unsplash.com/@seger">Tom Seger</a> on <a
+                    href="https://unsplash.com/">Unsplash</a></figcaption>
+        </figure>
+        <h2>Climate Protest in Zurich 2019</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et
+            dolore magna aliqua. Donec pretium vulputate sapien nec. In hac habitasse platea dictumst quisque
+            sagittis purus sit. Cras semper auctor neque vitae tempus quam. At consectetur lorem donec massa sapien
+            faucibus et molestie. Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. Et pharetra
+            pharetra massa massa. Quis imperdiet massa tincidunt nunc pulvinar. Quam vulputate dignissim suspendisse
+            in est ante in nibh mauris. Fringilla est ullamcorper eget nulla facilisi etiam dignissim. Aliquet nibh
+            praesent tristique magna sit amet purus. Felis eget nunc lobortis mattis aliquam faucibus. Dolor sed
+            viverra ipsum nunc aliquet bibendum enim. Est placerat in egestas erat imperdiet sed euismod nisi porta.
+            Quis blandit turpis cursus in. Adipiscing tristique risus nec feugiat in fermentum posuere urna nec.
+            Tellus cras adipiscing enim eu turpis. Aliquet lectus proin nibh nisl condimentum id venenatis. Neque
+            sodales ut etiam sit amet nisl purus in.</p>
 
-    <div class="box"><h2>Archives</h2>
-        <ul>
+        <p class="text"> Lobortis mattis aliquam faucibus purus in. Id ornare arcu odio ut sem nulla pharetra. Morbi
+            tristique
+            senectus et netus et malesuada. Purus semper eget duis at tellus at urna condimentum mattis. Sed turpis
+            tincidunt id aliquet. Varius vel pharetra vel turpis nunc eget lorem. Porttitor lacus luctus accumsan
+            tortor posuere. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Et
+            molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Est sit amet facilisis magna. Purus
+            in massa tempor nec. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. At imperdiet
+            dui accumsan sit amet nulla facilisi. Nibh sit amet commodo nulla facilisi. Vitae congue mauris rhoncus
+            aenean vel elit scelerisque mauris pellentesque. Tortor at risus viverra adipiscing at in tellus. Neque
+            gravida in fermentum et sollicitudin ac orci. Proin nibh nisl condimentum id venenatis a condimentum
+            vitae. Netus et malesuada fames ac turpis egestas maecenas pharetra, I mean really.</p>
+        <div>
+            <a href="blog-post.html" class="btn-card">Older Post</a>
+            <a href="blog-post.html" class="btn-card">Newer Post</a>
+        </div>
+    </article>
+
+    <aside class="sidebar">
+        <div class="box"><h2>Search</h2>
+            <form class="search-form">
+                <input type="search" name="q" placeholder="Type here..."
+                       aria-label="Search through site content">
+            </form>
+        </div>
+        <div class="box"><h2>Archives</h2>
             <ul>
+                <li id="Jan"><a href="#Jan">January 2021</a></li>
                 <li id="Dec"><a href="#Dec">December 2020</a></li>
                 <li id="Nov"><a href="#Nov">November 2020</a></li>
                 <li id="Oct"><a href="#Oct">October 2020</a></li>
@@ -27,11 +88,21 @@
                 <li id="Apr"><a href="#Apr">April 2020</a></li>
                 <li id="Mar"><a href="#Mar">March 2020</a></li>
                 <li id="Feb"><a href="#Feb">Februrary 2020</a></li>
-                <li id="Jan"><a href="#Jan">January 2020</a></li>
             </ul>
-            <li id="2019"><a href="#2019">2019</a></li>
-        </ul>
-    </div>
-
-    </body>
-</html>
+        </div>
+        <div class="box"><h2>Elsewhere</h2>
+            <a href="https://github.com/petergal" target="_blank" rel="”noreferrer”" alt="Github"><img
+                    class="social-media-icon" alt="Github" src="ressources/github-square-brands.svg"></a>
+            <a href="https://www.linkedin.com/in/peter-gal-54b378aa/" target="_blank" rel="”noreferrer”"
+               alt="Linkedin"><img class="social-media-icon" alt="Linkedin"
+                                   src="ressources/linkedin-brands.svg"></a>
+            <a href="https://twitter.com/peter_gal" target="_blank" rel="”noreferrer”" alt="Twitter"><img
+                    class="social-media-icon" alt="Twitter" src="ressources/twitter-square-brands.svg"></a>
+        </div>
+    </aside>
+    <footer class="footer">
+        © Peter Gal 2021
+    </footer>
+</div>
+</body>
+</html>Å
