@@ -1,14 +1,6 @@
 @import "typography.css";
 @import "media-queries.css";
-/*@import url('media-queries.css') screen;*/
 @import "veritas/all.custom-properties.css";
-/*import external fonts libraries google fonts, awesome,*/
-
-/*
-* {
-    border: 1px dotted red !important;
-}
-*/
 
 html {
     box-sizing: border-box;
@@ -47,12 +39,8 @@ header {
 
 /*Article*/
 article {
-    /*max-width: 500px;*/
-    /*max-height: 100%;*/
     margin: 20px;
     border-width: 2px;
-    /*border-style: solid;*/
-    /*border-color: var(--frostyday-bg-color);*/
     border-radius: 5px;
     padding: 0;
     overflow: hidden;
@@ -82,12 +70,6 @@ article {
     grid-area: six;
 }
 
-aside {
-    /*background-color: var(--frostyday-bg-color);*/
-    /*background-color: var(--frostyday-bg-color);*/
-    /*background-color: var(--azuresky-bg-color);*/
-}
-
 .sidebar {
     grid-area: sd;
     display: flex;
@@ -100,10 +82,7 @@ aside {
 
 .about {
     display: flex;
-    /*flex-direction: row;*/
-    /*align-items: center;*/
     justify-content: space-evenly;
-    /*padding: 20px 20px 20px 20px;*/
 }
 
 .center {
@@ -193,11 +172,6 @@ figure {
     padding: 20px 0 20px 0;
 }
 
-.card-description > a {
-    /*margin: 10px 0 20px 0;*/
-    /*padding: 20px;*/
-}
-
 .btn-card {
     font-size: 1em;
     padding: 5px 10px;
@@ -205,7 +179,6 @@ figure {
     text-decoration: none;
     border-radius: 5px;
     border: 1px solid /*color*/;
-    background-color: #fff;
     color: #238381;
 }
 
