@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>pg's blog</title>
@@ -7,14 +7,11 @@
     <meta name="description" content="a blog about">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/main.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&family=Roboto&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@100&family=Saira+Condensed:wght@100&display=swap"
-          rel="stylesheet">
 </head>
 <body>
 <div class="container">
     <nav class="navigation-mobile">
-        <a href="index.html"><img class="menu-icon" src="ressources/bars-solid.svg"></a>
+        <a href="index.html"><img class="menu-icon" src="ressources/bars-solid.svg" alt="menu"></a>
     </nav>
     <nav class="navigation">
         <ul class="menu">
@@ -26,12 +23,8 @@
     </nav>
     <header class="header">
         <h1>pg's blog</h1>
-        <!--        <a href="index.html">subscribe</a>-->
-        <!--        <img class="menu-icon" src="ressources/search-solid.svg">-->
     </header>
-
     <section class="content">
-
         <article class="card" id="one">
             <figure class="card-photo">
                 <div id="img-one" role="img" alt="Climate Protest in Zurich 2019"></div>
@@ -45,7 +38,6 @@
                 <a href="blog-post.html" class="btn-card">Read More</a>
             </div>
         </article>
-
         <article class="card" id="two">
             <figure class="card-photo">
                 <div id="img-two" role="img" alt="Zurich Color Boosted"></div>
@@ -61,7 +53,6 @@
                 <a href="blog-post.html" class="btn-card">Read More</a>
             </div>
         </article>
-
         <article class="card" id="three">
             <figure class="card-photo">
                 <div id="img-three" role="img" alt="Winterthur Goldenberg"></div>
@@ -75,35 +66,41 @@
                 <a href="blog-post.html" class="btn-card">Read More</a>
             </div>
         </article>
-
         <article class="card" id="four">
             <figure class="card-photo">
                 <div id="img-four" role="img" alt="Village of Avenches"></div>
                 <figcaption>Photo by <a
                         href="https://unsplash.com/@lighttouchedphotography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kevin
-                    Schmid</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
+                    Schmid</a> on <a href="https://unsplash.com/">Unsplash</a>
                 </figcaption>
             </figure>
             <div class="card-description">
                 <h2>Random Post - Avenches</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Id neque aliquam vestibulum morbi blandit cursus risus at. Malesuada
-                    pellentesque elit eget gravida. Eu consequat ac felis donec. Amet dictum sit amet justo donec enim
-                    diam. Pharetra massa massa ultricies mi. Viverra tellus in hac habitasse platea dictumst vestibulum.
-                    Ultricies leo integer malesuada nunc vel risus commodo. Duis ut diam quam nulla. Elementum facilisis
-                    leo vel fringilla est ullamcorper. Ut tortor pretium viverra suspendisse potenti. Nec nam aliquam
-                    sem et tortor consequat id.
-
+                <p><q id="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et dolore magna aliqua.</q>
+                </p>
+                <p>
+                    <span id="bold">Id neque</span><span id="italic">aliquam vestibulum</span> morbi
+                    <span id="underlined">blandit cursus risus at.</span> Malesuada pellentesque elit eget gravida. Eu
+                    consequat ac felis donec. Amet dictum sit amet justo donec enim diam. Pharetra massa massa ultricies
+                    mi. Viverra tellus in hac habitasse platea dictumst vestibulum. Ultricies leo integer malesuada nunc
+                    vel risus commodo. Duis ut diam quam nulla. Elementum facilisis leo vel fringilla est ullamcorper.
+                    Ut tortor pretium viverra suspendisse potenti. Nec nam aliquam sem et tortor consequat id.<br>
                     Ipsum dolor sit amet consectetur adipiscing elit. At tellus at urna condimentum mattis. Id leo in
-                    vitae turpis massa sed elementum tempus. Augue mauris augue neque gravida in. </p>
+                    vitae turpis massa sed elementum tempus. Augue mauris augue neque gravida in.
+                </p>
+                <pre><code>
+&#x3C;script&#x3E;
+  alert('Hello, world!');
+&#x3C;/script&#x3E;
+                </code></pre>
                 <a href="blog-post.html" class="btn-card">Read More</a>
             </div>
         </article>
-
     </section>
-
     <aside class="sidebar">
-        <div class="box"><h2>Search</h2>
+        <div class="box"><h3>Search</h3>
             <form class="search-form">
                 <input type="search" name="q" placeholder="Type here..."
                        aria-label="Search through site content">
@@ -117,16 +114,16 @@
                     adipisicing elit.</p>
             </div>
         </div>
-        <div class="box"><h2>Elsewhere</h2>
-            <ul>
-                <a href="https://github.com/petergal" target="_blank" rel="”noreferrer”" alt="Github"><img
-                        class="social-media-icon" alt="Github" src="ressources/github-square-brands.svg"></a>
-                <a href="https://www.linkedin.com/in/peter-gal-54b378aa/" target="_blank" rel="”noreferrer”"
-                   alt="Linkedin"><img class="social-media-icon" alt="Linkedin"
-                                       src="ressources/linkedin-brands.svg"></a>
-                <a href="https://twitter.com/peter_gal" target="_blank" rel="”noreferrer”" alt="Twitter"><img
-                        class="social-media-icon" alt="Twitter" src="ressources/twitter-square-brands.svg"></a>
-            </ul>
+        <div class="box"><h3>Elsewhere</h3>
+            <a href="https://github.com/petergal" target="_blank" rel="”noreferrer”" alt="Github"><img
+                    class="social-media-icon" alt="Github" src="ressources/github-square-brands.svg"></a>
+            <a href="https://www.linkedin.com/in/peter-gal-54b378aa/" target="_blank" rel="”noreferrer”"
+               alt="Linkedin"><img class="social-media-icon" alt="Linkedin"
+                                   src="ressources/linkedin-brands.svg"></a>
+            <a href="https://twitter.com/peter_gal" target="_blank" rel="”noreferrer”" alt="Twitter"><img
+                    class="social-media-icon" alt="Twitter" src="ressources/twitter-square-brands.svg"></a>
+            <a href="https://www.facebook.com" target="_blank" rel="”noreferrer”" alt="Facebook"><img
+                    class="social-media-icon" alt="Facebook" src="ressources/facebook-square-brands.svg"></a>
         </div>
     </aside>
     <footer class="footer">
