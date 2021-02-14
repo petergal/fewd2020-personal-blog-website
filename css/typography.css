@@ -85,3 +85,12 @@ figure {
 #underlined {
     text-decoration: underline;
 }
+
+.search-form input[type=search] {
+    font-size: 1.2em;
+    color: var(--vds-color-black);
+    background: var(--vds-color-blue-lightest);
+    border: 0;
+    padding: 10px;
+    width: 300px;
+}
